@@ -54,4 +54,28 @@ li {
 .button {
   background-color: #3882f6;
   color: #f9faf8;
+  border: solid #3882f6 2px;
+  border-radius: 8px;
+  padding: 3px 15px;
+}
+
+.information-image {
+  max-width: 200px;
+  height: auto;
+  border: solid #3882f6 2px;
+  border-radius: 16px;
+}
+
+.information-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.info-title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bolder;
+  padding: 20px;
 }
