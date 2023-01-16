@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header,
+.links,
+.section {
+  display: flex;
+  justify-content: space-around;
+}
+
+.header {
+  background-color: #1f2937;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  color: #f9faf8;
+  padding: 20px;
+}
+
+ul {
+  list-style-type: none;
+  gap: 18px;
+}
+
+li {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.hero {
+  font-size: 48px;
+  font-weight: bolder;
+}
