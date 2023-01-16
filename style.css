@@ -8,16 +8,27 @@ body {
 .section {
   display: flex;
   justify-content: space-around;
+  background-color: #1f2937;
+}
+
+li,
+.secondary-text {
+  color: #e5e7eb;
+}
+
+.logo,
+.hero {
+  color: #f9faf8;
+  margin: 0;
+  padding: 20px;
 }
 
 .header {
-  background-color: #1f2937;
   align-items: center;
 }
 
 .logo {
   font-size: 24px;
-  color: #f9faf8;
   padding: 20px;
 }
 
@@ -28,10 +39,19 @@ ul {
 
 li {
   font-size: 18px;
-  color: #e5e7eb;
 }
 
 .hero {
   font-size: 48px;
   font-weight: bolder;
+}
+
+.image-container {
+  max-width: 400px;
+  height: auto;
+}
+
+.button {
+  background-color: #3882f6;
+  color: #f9faf8;
 }
